@@ -43,7 +43,7 @@ The method returns two integer values:
 
 ### Question13
 The secondary diagonal of matrix **A** contains the following cells:  
-A[0][N-1], A[1][N-2], A[2][N-3].....A[N-1][0]  
+A[0][N-1], A[1][N-2], A[2][N-3],...,A[N-1][0]  
 We define:  
 * Arrow Matrix - Square Matrix **B** of *M*x*M* order will be called an Arrow Matrix if all cells in its secondary diagonal will contain the character 'b', and the rest of the matrix cells will contain the character 'a'.
 Note: if *M* = 1,  the Arrow Matrix will contain only the 'b' character.
@@ -134,3 +134,33 @@ It then grows two regions: **A**[*p…i*] and **A**[*j…r*], such that every el
 The method is using previous section and the median.
 
 ### Question15
+An icecream network plans to establish many branches along a central Street.  
+**M**[1], **M**[2],...,**M**[*n*] indicate the house numbers on the street where there is free space for establishing a new branch.  
+The network is considering where to set up the new branches:  
+From a market survey, the network estimates that in house number **M**[*i*] it's expected profits will be **P**[*i*] (**P**[*i*] is a positive number).  
+The network will not establish two branches whose distance apart is less *k* (*k* is a positive whole number)
+
+#### Example:
+
+If *k* = 20 and the network chooses to set up a branch in house number 135, it is not allowed to set up a branch in its number
+143, since 143 - 135 < 20.
+
+We define as *mp*(*i*) the most profit you can earn from opening branches taken from the first *i* houses. *mp*(*i*) is monotonic and does not decrease in *i*.
+
+#### 2 methods:
+1) *mp* - A recursive method for calculating *mp* (I wrote 2 versions of it).
+2) *printMp* - A recursive algorithm that gets as a parameters: The array **M** (with the house numbers), the array **P** (with the expected profits), and the number *k* (indicating the distance limit).  
+The method prints the house numbers where branch offices are expected to maximize profitability (I wrote 2 versions of it).
+
+### QuestionBonus
+Definition: Decomposing a natural number *n* to the sum of *N* odd numbers is a presentation of this number as the sum of *N* odd natural numbers.  
+For example, for - n = 7, N = 6, the decompositions are:  
+```
+7 = 1 + 1 + 1 + 1 + 3
+7 = 1 + 3 + 3
+7 = 1 + 1 + 5
+7 = 7
+```
+The method reads a natural number from the input and prints all it's decompositions For a maximum of *N* odd numbers.  
+The program also prints the number of decompositions.  
+Note: The decompositions `7 = 1 + 3 + 3` and `7 = 3 + 1 + 3` are essentially the same decomposition and is printed and counted only once.
