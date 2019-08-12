@@ -119,5 +119,18 @@ The method will return 2.
 
 ### Question14
 The *i* th order statistic of a set of *n* elements is the *i* th smallest element. For example, the minimum of a set of elements is the first order statistic (i=1), and the maximum is The n th order statistic (i=n). A median is the "halfway point"
-of the set ![image](https://raw.githubusercontent.com/aviasd/Advanced-Recursive-https://raw.githubusercontent.com/aviasd/Advanced-Recursive-Methods/master/README%20files/expressionForQuestion14.PNG)  
+of the set  
+![image](https://raw.githubusercontent.com/aviasd/Advanced-Recursive-https://raw.githubusercontent.com/aviasd/Advanced-Recursive-Methods/master/README%20files/expressionForQuestion14.PNG)  
 
+#### 2 methods:
+1) *findIthSmallestElement* - Suppose we are given an unsorted array **A** of integers. This method is a
+Divide and Conquer recursive algorithm that finds the *i* th smallest
+element.
+The method first select an element x = **A**[*p*] from **A**[*p…r*] as a "pivot" element around which to partition **A**[*p…r*].  
+It then grows two regions: **A**[*p…i*] and **A**[*j…r*], such that every element in **A**[*p…i*] is less than x and every element in **A**[*j…r*] is greater than or equal to x.
+
+2) *findMissingElement* - Suppose we are given an unsorted array **A** of integers in the range 0 to *n* except for one integer. This method is a Divide and Conquer recursive algorithm that finds the missing number. We assume  
+![image](https://raw.githubusercontent.com/aviasd/Advanced-Recursive-Methods/master/README%20files/expressionForQuestion14b.PNG)  
+The method is using previous section and the median.
+
+### Question15
