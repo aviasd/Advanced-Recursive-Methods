@@ -119,4 +119,5 @@ The method will return 2.
 
 ### Question14
 The *i* th order statistic of a set of *n* elements is the *i* th smallest element. For example, the minimum of a set of elements is the first order statistic (i=1), and the maximum is The n th order statistic (i=n). A median is the "halfway point"
-of the set ()
+of the set ![image](https://raw.githubusercontent.com/aviasd/Advanced-Recursive-https://raw.githubusercontent.com/aviasd/Advanced-Recursive-Methods/master/README%20files/expressionForQuestion14.PNG)  
+
