@@ -72,7 +72,7 @@ For the the next matrix:
 
 |    |    |    |    |    |
 |:--:|:--:|:--:|:--:|:--:|
-|  f |  d |  c |  c |  **b** |
+|  f |  d |  c |  c |  ***b*** |
 |  f |  g |  a |  b |  a |
 |  f |  h |  b |  c |  a |
 |  s |  k |  n |  b |  s |
@@ -84,8 +84,8 @@ For the the next matrix:
 
 |    |    |    |    |    |
 |:--:|:--:|:--:|:--:|:--:|
-|  f |  d |  f |  **a** |  **b** |
-|  f |  g |  b |  **b** |  **a** |
+|  f |  d |  f |  ***a*** |  ***b*** |
+|  f |  g |  b |  ***b*** |  ***a*** |
 |  f |  h |  b |  i |  d |
 |  s |  k |  n |  b |  s |
 |  a |  b |  k |  p |  o |
@@ -97,9 +97,9 @@ For the the next matrix:
 
 |    |    |    |    |    |
 |:--:|:--:|:--:|:--:|:--:|
-|  f |  d |  **a** |  **a** |  **b** |
-|  f |  g |  **a** |  **b** |  **a** |
-|  f |  h |  **b** |  **a** |  **a** |
+|  f |  d |  ***a*** |  ***a*** |  ***b*** |
+|  f |  g |  ***a*** |  ***b*** |  ***a*** |
+|  f |  h |  ***b*** |  ***a*** |  ***a*** |
 |  s |  k |  n |  b |  s |
 |  a |  b |  k |  p |  n |
 
@@ -109,11 +109,14 @@ For the the next matrix:
 
 |    |    |    |    |    |
 |:--:|:--:|:--:|:--:|:--:|
-|  f |  d |  a |  **a** |  **b** |
-|  f |  g |  c |  **b** |  **a** |
+|  f |  d |  a |  ***a*** |  ***b*** |
+|  f |  g |  c |  ***b*** |  ***a*** |
 |  f |  h |  b |  a |  a |
 |  s |  k |  n |  b |  s |
 |  a |  b |  k |  p |  m |
 
 The method will return 2.
 
+### Question14
+The *i* th order statistic of a set of *n* elements is the *i* th smallest element. For example, the minimum of a set of elements is the first order statistic (i=1), and the maximum is The n th order statistic (i=n). A median is the "halfway point"
+of the set ()
